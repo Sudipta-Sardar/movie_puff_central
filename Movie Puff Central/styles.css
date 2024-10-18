@@ -1,0 +1,72 @@
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+   color: #333;
+    margin: 0;  
+    padding: 0;
+}
+header {
+    background-color: 333;
+    text-align: center;
+    color: #0e6087;
+    padding: 20px;
+}
+
+.poster-gallery img{
+    width: 200px;
+    margin: 10px;
+    border-radius: 20px;
+}
+#characters{
+    padding: 20px;
+}
+
+.character{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.character img{
+   width: 150px;
+   margin-right: 20px;
+}
+
+.bio h3{
+    margin: 0;
+}
+
+#trailers{
+    text-align: center;
+    padding: 20px;
+}
+
+iframe{
+    margin: 10px;
+}
+
+#quote{
+    text-align: center;
+    padding: auto;
+}
+
+#quiz{
+    padding: 20px;
+}
+.quiz-question{
+    margin-bottom: 20px;
+}
+
+button{
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #0e6087;
+}

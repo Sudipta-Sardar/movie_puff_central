@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Movie Buff Central</title>
+</head>
+<body>
+    <!--Home Section--> 
+    <header>
+        <h1>Welcome to Movie Buff Central</h1>
+        <p>Your hub for all things about your favorite movie franchises. </p>
+        <div id="poster-gallery ">
+            <img src="poster1.jpg" alt="Movie Poster 1">
+            <img src="poster2.jpg" alt="Movie Poster 2">
+            <img src="poster3.jpg" alt="Movie Poster 3">
+        </div>
+    </header>
+<!--Character Bios-->
+<section id="characters">
+    <h2>Character Bios</h2>
+    <div class="character">
+        <img src="character1.jpg" alt="character1">
+        <div class="bio">
+            <h3>RajKumar Rao</h3>
+           <p>Interesting Fact: A newly married couple's relationship and reputation are put at risk when their private video CD is stolen. The story follows their roller coaster journey to recover the CD, navigating a series of unexpected difficulties along the way.</p>
+           </div>
+        </div>
+        <div class="character">
+            <img src="character2.jpg" alt="character 2">
+            <div class="bio">
+                <h3>Kartick Aryan</h3>
+                <p>Interesting Fact: A upcoming horror and comedy movie</p>
+            </div>
+            <div class="character">
+                <img src="character3.jpg" alt="character 3">
+                <div class="bio">
+                    <h3>Suriya(Saravanan Sivakumar)</h3>
+                    <p>Interesting Fact: A tribal warrior's fierce struggle to save his people a millennium ago is mysteriously linked to a shadow cop's perilous quest in the present.</p>
+                </div>
+        </div>
+</section>
+
+<!--Embedded Movie trailers Section-->
+<section id="trailers">
+    <h2>Movie Trailers</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/0xXa9a2rHoQ?si=QvSR-XIv5yBdYfrP" title="Movie Trailer 1" frameborder="0"  allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/6YMY62tMLUA?si=p4TBpZt5tAwtExw4" title="Movie Trailer 2" frameborder="0" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/bdQF3fwv5mw?si=aWOaYQgZGV4lNxLT" title="Movie Trailer 2" frameborder="0" allowfullscreen></iframe>
+</section>
+
+<!-- Quote of the Day Section -->
+<section id="quote">
+    <h2>Quote of the Day</h2>
+    <p id="randomQuote">"May the Force be with you."</p>
+    <button onclick="generateQuote()">Get a new quote</button>
+</section>
+
+<!-- Trivia Quiz Section -->
+<section id="quiz">
+    <h2>Movie Trivia Quiz</h2>
+    <div class="quiz-question">
+        <p>Question 1: Who directed the Vicky Vidya Ka Woh Wala Video?</p>
+        <input type="radio" name="q1" value="a1"> Raaj Shaandilyaa<br>
+        <input type="radio" name="q2" value="a2"> Karan Johar<br>
+        <input type="radio" name="q3" value="a3"> Anurag Kashyap<br>
+    </div>
+    <button onclick="submitQuiz()">Submit Answers</button>
+    <p id="quizResult"></p>
+</section>
+</body>
+<script src="script.js"></script>
+</html>
