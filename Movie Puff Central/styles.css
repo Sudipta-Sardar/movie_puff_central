@@ -5,12 +5,28 @@ body{
    color: #333;
     margin: 0;  
     padding: 0;
+   
+    
+}
+.bg-image{
+    background-image: url("netflix.jpg");
+    position: absolute;
+    /* Set a specific height */
+    min-height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
 }
 header {
     background-color: 333;
     text-align: center;
-    color: #0e6087;
+    color: aqua;
     padding: 20px;
+    
 }
 
 .poster-gallery img{
@@ -20,12 +36,14 @@ header {
 }
 #characters{
     padding: 20px;
+    color: aqua;
 }
 
 .character{
     display: flex;
     align-items: center;
     margin-bottom: 20px;
+    color: aqua;
 }
 
 .character img{
@@ -40,6 +58,7 @@ header {
 #trailers{
     text-align: center;
     padding: 20px;
+    color: aquamarine;
 }
 
 iframe{
@@ -49,10 +68,12 @@ iframe{
 #quote{
     text-align: center;
     padding: auto;
+    color: aqua;
 }
 
 #quiz{
     padding: 20px;
+    color: aqua;
 }
 .quiz-question{
     margin-bottom: 20px;
