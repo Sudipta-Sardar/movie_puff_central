@@ -20,11 +20,13 @@ function submitQuiz() {
     if(q1){
         if(q1.value ==="a1"){
             resultText="Your answer is correct!";
-        }else{
+        }
+        else{
             resultText="Your answer is incorrect.";
         }
-    }else{
-            resultText="Please select an Answer.";
+    }
+    else{
+            resultText="Incorrect answer";
         }
         document.getElementById("quizResult").textContent=resultText;
     }
